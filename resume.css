@@ -1,0 +1,125 @@
+.main{
+  width: 800px;
+  height: 1100px;
+  background-color: powderblue;
+  display: flex;
+  padding: 10px;
+  border: 5px solid black;
+  margin-top: -25px;
+}
+h1{
+  background-color: powderblue;
+  padding: 7px;
+  width: 806px;
+  text-align:center;
+  border: 5px solid black;
+
+}
+span{
+  display: block;
+  width: 250px;
+  height: 1100px;
+}
+#f1{
+  background-color:transperent;
+}
+#f2{
+  width: 750px;
+  background-color:gold;
+  border-radius: 5px;
+  margin-left: 9px;
+}
+#f3{
+  display: block;
+  width: 100px;
+  background-color: red;
+}
+img{
+  width:130px;
+  height:140px;
+  margin-left:80px;
+  margin-top:30px;
+  border-radius:50%;
+  border: 5px double;
+}
+#s1{
+  background-color:black;
+  height:203px;
+  width: 209px;
+    border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  margin-top: -180px;
+  margin-left: 40px;
+  border: 5px solid gold;
+}
+h4{
+  margin-top:-120px;
+  color:silver;
+  font-family: sans-serif;
+}
+#age,#dob{
+  color:silver;
+}
+.obj{
+  text-align: left;
+  text-indent: 1em;
+  padding-top: 20px;
+}
+#s2{
+  margin-top:-0.5px;
+  margin-left: -6px;
+  height:118px;
+  width: 550px;
+  background-color: black;
+  border: 4px solid gold;
+  border-left: none;
+}
+hr{
+  background-color: black;
+  height: 2px;
+  width: 70%;
+  margin-left: 0px;
+}
+#contact{
+  margin-top: 10px;
+  color: black;
+  margin-left: 30px;
+  padding: 10px;
+  padding-right: 0px;
+  width: 80%;
+  margin-left: -10px;
+border: 3px solid black;
+border-left: none;
+border-top-right-radius:40%;
+border-bottom-right-radius: 40%;
+background-color: gold;
+}
+li{
+  list-style-type: none;
+  font-style:bold;
+  font-weight:690;
+  padding-bottom: 20px;
+}
+dt{
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color:gold ;
+}
+p{
+  height: 70px;
+border: 1px solid black;
+border-radius: 5px;
+margin-top:-7px;
+}
+button{
+  width:100px;
+  margin-left: 25%;
+  height:60px;
+  margin-top:20px;
+  font-size: xx-large;
+  font-weight: 600;
+  text-align: center;
+  
+
+}

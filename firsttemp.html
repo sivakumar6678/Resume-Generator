@@ -1,0 +1,158 @@
+<html>
+    <head>
+        <title>
+            RESUME GENERATOR
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="resume form">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      
+      <link rel="stylesheet" href="1sttempresumn.css">
+    </head>
+    <body>
+        <div class="container cntin">
+            <div class="row ">
+                <div class="container-fluid panel he11">
+                    <div class="col-sm-4 "></div>
+                        <h1 >RESUME GENERATOR</h1>
+                </div>
+            </div>
+            <div class="row cnt">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-10">
+                    <div class="container">
+                        <form name="resmu" >
+                            <div class="row">
+                                <div class="row">
+                                    <div class="col-sm-5"><h2 id="h22"><span><img id="ppn" src="perinf.png"></span> PERSONAL INFORMATION<span id="lst">:-</span></h2></div>
+                                </div>
+                                
+                                    <div class="col-sm-9 form-group ">
+                                        <fieldset >
+                                        Name:<input class="form-control" type="text" id="name" pattern="[a-zA-Z ]*" placeholder="Enter your name" ><br />
+                                        Email : <input type="text" pattern="[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" class="form-control" id="email" placeholder="Enter your E-Mail" /><br />
+                                        Phone No: <input type="tel" pattern="[0-9]*" maxlength="10" id="phoneno" class="form-control" placeholder="Enter your phone number"  ><br />
+                                        Date of Birth: <input type="date" class="form-control" id="dte"/><br />
+                                        Address: <textarea id="addess" class="form-control" name="S1" ></textarea>
+                                        </fieldset>
+                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-9">
+                                    <fieldset>
+                                        <h2>Objective:</h2>
+                                        <textarea  class="form-control" id="obj" name="S2" rows="5"></textarea> 
+                                    </fieldset><br />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="row">
+                                    <div class="col-sm-5"><h2 id="h22"><span><img id="ppn" src="edu.png"></span>EDUCATIONAL DETAILS <span id="lst">:-</span></h2></div>
+                                </div>
+                                    
+                                    <div class="col-sm-9 form-group has-success has-feedback">
+                                        <fieldset>
+                                        <h4><b>SSC :</b></h4>
+                                        Year:<br>
+                                        <div class="col-sm-6">
+                                            From:<input type="number" id="ye1" class="form-control ">
+                                        </div> 
+                                        <div class="col-sm-6">
+                                            To:<input type="number" id="ye01" class="form-control ">
+                                        </div>
+                                        Institution Name: <input type="text" id="in1" class="form-control" placeholder="Enter your school Name">
+                                        CGPA:<input type="number" id="gpa" class="form-control" >
+                                        Percentage:<input type="number" id="per1" class="form-control">
+                            
+                                       <h4> <b>Higher Education:</b></h4>
+                                       Year:<br>
+                                       <div class="col-sm-6">
+                                           From:<input type="number" id="ye21" class="form-control ">
+                                       </div>
+                                       <div class="col-sm-6">
+                                           To:<input type="number" id="ye22" class="form-control ">
+                                       </div>
+                                        Institution Name:<input type="text" id="in2" class="form-control" placeholder="Enter your collage Name">
+                                        Percentage:<input type="number" id="per2" class="form-control">
+                                    </fieldset>
+                                    </div>
+                                <br/>
+                            </div>
+                            <div class="row">
+                                <div class="row">
+                                    <div class="col-sm-5"><h2 id="h22"><span><img id="ppn" src="work.png"></span>WORK EXPERIENCE <span id="lst">:-</span></h2></div>
+                                </div>
+                                
+                                <div class="col-sm-9 form-group has-success has-feedback">
+                                    <fieldset>
+                                    Year:<br>
+                                       <div class="col-sm-6">
+                                           From:<input type="number" id="ye31" class="form-control ">
+                                       </div>
+                                       <div class="col-sm-6">
+                                           To:<input type="number" id="ye32" class="form-control ">
+                                       </div>
+                                    Company : <input class="form-control" type="text" id="company"  /><br />
+                                    Job title: <input class="form-control" type="text" id="jobtitle"/><br />
+                                    Job Description: <textarea class="form-control" id="jobdesc" name="S4" ></textarea><br />
+                                    Awards : <input class="form-control" type="text" id="awards"  /><br /><br />
+                                </fieldset>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-9">
+                                    <fieldset>    
+                                        <div class="skhb">
+                                            <ol class="col-sm-6">  
+                                                <h2>SKILLS</h2>
+                                                <div >
+                                                    <li><input  id="sk1" type="text"class="list-group-item form-control" /></li>
+                                                    <li><input type="text" id="sk2" class="list-group-item form-control"> </li>
+                                                    <li><input type="text" id="sk3" class="list-group-item form-control"></li>
+                                                </div>
+                                             </ol>
+                                            <ol class="col-sm-6" > 
+                                                <h2>HOBBIES</h2>
+                                                <div >
+                                                    <li><input id="hb1" type="text" class="list-group-item form-control"></li>
+                                                    <li><input id="hb2" type="text" class="list-group-item form-control"></li>
+                                                    <li><input id="hb3" type="text" class="list-group-item form-control"></li>
+                                                </div>
+                                            </ol>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div>  
+                        </form> 
+                            <div class="row">
+                                <div class="col-sm-9">
+                                    <fieldset > 
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <center><b>
+                                                    <cite>Upload image....</cite></b><br />
+                                                    <input class="form-control" id="MyFile" accept="image/*" name="image"  type="file"  align="middle" size="20px"  /><br /></center><br />     
+                                            </div>
+                                            <div class="col-sm-2"></div>
+                                            <div class="col-sm-4">
+                                                <img src="pro.jpg" id="imma">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-sm-4"></div>
+                                            <div class="col-sm-3"><input class="btn btn-block  btn-success" id="sbt" type="button" value="Submit" id="photo"  onclick="generate()" size="10px" /> </div>
+                                        </div>  
+                                    </fieldset>
+                                </div>  
+                            </div>  
+                    </div>
+                </div>     
+            </div>
+        </div>
+        <script src="resgen.js"></script>
+
+    </body>
+
+</html>

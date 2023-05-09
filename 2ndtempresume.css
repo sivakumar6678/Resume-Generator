@@ -1,0 +1,41 @@
+body{
+  background-color:black;
+  color: white;
+}
+input{
+  margin: 10px;
+  width: 30%;
+  background-color: black;
+  color: white;
+  font-style: italic;
+  border-bottom: 3px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+textarea{
+resize: none;
+width: 40%;
+height: 100px;
+background-color: black;
+color: white;
+  font-style: italic;
+}
+legend{
+  border: 2px solid red;
+}
+button{
+margin-left: 50%;
+width: 100px;
+text-align: center;
+margin-top: 10px;
+height:30px;
+background-color: red;
+}
+button:hover{
+  box-shadow: -1px -1px 7px 1px yellow
+}
+#profile{
+  border: 4px solid red;
+border-radius: 50%;
+}
